@@ -15,5 +15,10 @@ Thumbs.db
 # Build files
 /.hugo_build.lock
 
+# Nix
+/result
+/result-*
+.direnv/
+
 # Project files
 /public/
