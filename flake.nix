@@ -109,6 +109,7 @@
 
               # Use relative redirects to avoid port mismatch with NodePort/LoadBalancer
               absolute_redirect off;
+              port_in_redirect off;
 
               # Redirect root to /doc/
               location = / {
