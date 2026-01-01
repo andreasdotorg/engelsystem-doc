@@ -5,8 +5,6 @@ lastmod: 2024-04-08T23:50:00+02:00
 weight: 40
 ---
 
-# Role Management
-
 Engelsystem uses a group-based permission system. Users belong to groups, and groups have privileges that control what actions users can take.
 
 ## Groups

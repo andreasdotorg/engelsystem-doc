@@ -3,8 +3,6 @@ title: "Veranstaltungsbetrieb"
 weight: 20
 ---
 
-# Veranstaltungsbetrieb
-
 Während das große Event-Setup typischerweise von Admins vor Veranstaltungsbeginn erledigt wird, helfen Bürokraten oft bei operativen Aufgaben während der Veranstaltung. Diese Seite behandelt, was dir begegnen könnte.
 
 ## Die Veranstaltungsstruktur verstehen

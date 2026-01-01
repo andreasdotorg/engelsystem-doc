@@ -3,8 +3,6 @@ title: "Benutzerhandbuch"
 weight: 10
 ---
 
-# Benutzerhandbuch
-
 Dieser Abschnitt behandelt die Nutzung des Engelsystems als Freiwillige*r. Du lernst, wie du deinen Account verwaltest, Schichten findest und deine Stunden verfolgst.
 
 ## Themen

@@ -3,8 +3,6 @@ title: "Schedule Import"
 weight: 30
 ---
 
-# Schedule Import
-
 Engelsystem can import event schedules from Frab or Pretalx to automatically create shifts based on talks and sessions. This links volunteer shifts to the event program, so angels can sign up to help with specific talks.
 
 ## How It Works

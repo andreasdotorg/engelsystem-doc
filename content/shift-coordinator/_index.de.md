@@ -3,8 +3,6 @@ title: "Schichtkoordinator-Handbuch"
 weight: 25
 ---
 
-# Schichtkoordinator-Handbuch
-
 Schichtkoordinatoren verwalten Schichten für die gesamte Veranstaltung. Während Supporter sich auf die Teammitglieder ihres eigenen Engeltyps konzentrieren, arbeiten Schichtkoordinatoren mit dem Schichtplan selbst - sie erstellen, bearbeiten und organisieren die Arbeit, die erledigt werden muss.
 
 ## Was Schichtkoordinatoren tun

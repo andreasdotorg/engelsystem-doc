@@ -3,8 +3,6 @@ title: "Event Operations"
 weight: 20
 ---
 
-# Event Operations
-
 While major event setup is typically handled by admins before the event begins, bureaucrats often help with operational tasks during the event. This page covers what you might encounter.
 
 ## Understanding the Event Structure

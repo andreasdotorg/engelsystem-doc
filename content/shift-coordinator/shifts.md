@@ -3,8 +3,6 @@ title: "Managing Shifts"
 weight: 10
 ---
 
-# Managing Shifts
-
 This page covers how to create, edit, and organize shifts in the Engelsystem.
 
 ## Creating Shifts

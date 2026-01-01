@@ -3,8 +3,6 @@ title: "Supporter Guide"
 weight: 20
 ---
 
-# Supporter Guide
-
 Supporters are team leads for specific angel types. If you've been made a supporter, you're responsible for helping manage your team's angels and ensuring shifts are covered.
 
 ## What Supporters Do

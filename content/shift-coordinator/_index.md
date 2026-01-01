@@ -3,8 +3,6 @@ title: "Shift Coordinator Guide"
 weight: 25
 ---
 
-# Shift Coordinator Guide
-
 Shift Coordinators manage shifts across the entire event. While supporters focus on their own angel type's team members, shift coordinators work with the shift schedule itself - creating, editing, and organizing the work that needs to be done.
 
 ## What Shift Coordinators Do

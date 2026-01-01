@@ -3,8 +3,6 @@ title: "User Guide"
 weight: 10
 ---
 
-# User Guide
-
 This section covers how to use the Engelsystem as a volunteer. You'll learn how to manage your account, find shifts, and track your hours.
 
 ## Topics

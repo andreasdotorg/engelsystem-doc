@@ -3,8 +3,6 @@ title: "Bürokraten-Handbuch"
 weight: 30
 ---
 
-# Bürokraten-Handbuch
-
 Bürokraten erledigen administrative Aufgaben für die Veranstaltung. Wenn dir diese Rolle zugewiesen wurde, bist du für Benutzerverwaltung, Beantwortung von Fragen und die Organisation von Aufzeichnungen verantwortlich.
 
 ## Was Bürokraten tun

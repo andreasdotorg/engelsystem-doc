@@ -3,8 +3,6 @@ title: "CI/CD-Pipeline"
 weight: 30
 ---
 
-# CI/CD-Pipeline
-
 Das Engelsystem verwendet GitLab CI/CD für kontinuierliche Integration und Deployment. Die Pipeline automatisiert Tests, Builds und Deployments.
 
 ## Pipeline-Übersicht

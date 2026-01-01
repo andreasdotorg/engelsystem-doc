@@ -3,8 +3,6 @@ title: "Berichte und Logs"
 weight: 30
 ---
 
-# Berichte und Logs
-
 Das Engelsystem erfasst verschiedene Statistiken und führt Protokolle über Systemaktivitäten. Als Bürokrat hast du Zugang zu einem Teil dieser Informationen für Überwachung und Fehlerbehebung.
 
 ## Aktivitätsprotokolle

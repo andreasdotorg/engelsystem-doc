@@ -3,8 +3,6 @@ title: "Bureaucrat Guide"
 weight: 30
 ---
 
-# Bureaucrat Guide
-
 Bureaucrats handle administrative tasks for the event. If you've been assigned this role, you're responsible for user management, answering questions, and keeping records organized.
 
 ## What Bureaucrats Do

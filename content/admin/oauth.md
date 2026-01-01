@@ -3,8 +3,6 @@ title: "OAuth Configuration"
 weight: 25
 ---
 
-# OAuth Configuration
-
 Engelsystem supports OAuth 2.0 for external authentication providers. This allows users to log in using accounts from identity providers like Keycloak, GitHub, or other OAuth-compatible services.
 
 ## How OAuth Works

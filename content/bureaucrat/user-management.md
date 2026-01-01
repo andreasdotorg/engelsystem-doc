@@ -3,8 +3,6 @@ title: "User Management"
 weight: 10
 ---
 
-# User Management
-
 Managing user accounts is a core part of bureaucrat work. This page covers how to find users, view their information, and make common updates.
 
 ## Finding Users

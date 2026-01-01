@@ -3,8 +3,6 @@ title: "Supporter-Handbuch"
 weight: 20
 ---
 
-# Supporter-Handbuch
-
 Supporter sind Teamleiter für bestimmte Engeltypen. Wenn du zum Supporter ernannt wurdest, bist du dafür verantwortlich, die Engel deines Teams zu unterstützen und sicherzustellen, dass Schichten besetzt werden.
 
 ## Was Supporter tun

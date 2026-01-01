@@ -4,8 +4,6 @@ date: 2019-02-13T19:35:37+01:00
 weight: 10
 ---
 
-# Installation
-
 This guide covers different methods to deploy Engelsystem.
 
 ## Requirements

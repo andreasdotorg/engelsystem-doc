@@ -3,8 +3,6 @@ title: "Managing Shifts"
 weight: 20
 ---
 
-# Managing Shifts
-
 As a supporter, you can help your team members get signed up for shifts. This is particularly useful when coordinating with angels in person or helping fill urgent gaps.
 
 ## Signing Up Team Members

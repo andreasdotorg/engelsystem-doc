@@ -3,8 +3,6 @@ title: "CI/CD Pipeline"
 weight: 30
 ---
 
-# CI/CD Pipeline
-
 Engelsystem uses GitLab CI/CD for continuous integration and deployment. The pipeline automates testing, building, and deployment.
 
 ## Pipeline Overview

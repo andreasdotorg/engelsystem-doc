@@ -3,8 +3,6 @@ title: "Architecture"
 weight: 10
 ---
 
-# Architecture
-
 This page provides an overview of Engelsystem's technical architecture for developers.
 
 ## Tech Stack

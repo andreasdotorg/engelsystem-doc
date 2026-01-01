@@ -3,8 +3,6 @@ title: "Reports and Logs"
 weight: 30
 ---
 
-# Reports and Logs
-
 The Engelsystem tracks various statistics and maintains logs of system activity. As a bureaucrat, you have access to some of this information for monitoring and troubleshooting.
 
 ## Activity Logs

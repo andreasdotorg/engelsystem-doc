@@ -3,8 +3,6 @@ title: "Schichten verwalten"
 weight: 20
 ---
 
-# Schichten verwalten
-
 Als Supporter kannst du deinen Teammitgliedern helfen, sich für Schichten einzutragen. Das ist besonders nützlich, wenn du dich persönlich mit Engeln koordinierst oder dringende Lücken füllst.
 
 ## Teammitglieder eintragen

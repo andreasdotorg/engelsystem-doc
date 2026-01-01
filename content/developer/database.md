@@ -3,8 +3,6 @@ title: "Database"
 weight: 20
 ---
 
-# Database
-
 Engelsystem uses MySQL/MariaDB with Eloquent ORM for database access. This page documents the schema, models, and migration system.
 
 ## Schema Overview

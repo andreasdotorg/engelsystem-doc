@@ -3,8 +3,6 @@ title: "API-Authentifizierung"
 weight: 10
 ---
 
-# API-Authentifizierung
-
 Die REST-API des Engelsystems verwendet API-Schlüssel zur Authentifizierung. Jeder Benutzer hat einen eindeutigen API-Schlüssel, der seine Anfragen identifiziert und autorisiert.
 
 ## Deinen API-Schlüssel finden

@@ -2,8 +2,6 @@
 title: "Engelsystem Documentation"
 ---
 
-# Engelsystem Documentation
-
 Engelsystem is a volunteer management and shift planning system for events. It helps organizers coordinate volunteers by managing shift schedules, tracking qualifications, recording work hours, and distributing rewards.
 
 ## Core Concepts

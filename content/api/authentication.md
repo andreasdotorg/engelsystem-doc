@@ -3,8 +3,6 @@ title: "API Authentication"
 weight: 10
 ---
 
-# API Authentication
-
 Engelsystem's REST API uses API key authentication. Each user has a unique API key that identifies and authorizes their requests.
 
 ## Getting Your API Key

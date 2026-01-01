@@ -3,8 +3,6 @@ title: "Fahrplan-Import"
 weight: 30
 ---
 
-# Fahrplan-Import
-
 Das Engelsystem kann Veranstaltungsfahrpläne aus Frab oder Pretalx importieren, um automatisch Schichten basierend auf Vorträgen und Sessions zu erstellen. Dies verknüpft Freiwilligenschichten mit dem Veranstaltungsprogramm, sodass Engel sich für die Unterstützung bei bestimmten Vorträgen anmelden können.
 
 ## So funktioniert es

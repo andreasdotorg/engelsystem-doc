@@ -3,8 +3,6 @@ title: "Benutzerverwaltung"
 weight: 10
 ---
 
-# Benutzerverwaltung
-
 Die Verwaltung von Benutzerkonten ist ein Kernbereich der Bürokraten-Arbeit. Diese Seite erklärt, wie du Benutzer findest, ihre Informationen einsiehst und häufige Aktualisierungen vornimmst.
 
 ## Benutzer finden

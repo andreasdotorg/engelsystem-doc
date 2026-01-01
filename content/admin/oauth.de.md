@@ -3,8 +3,6 @@ title: "OAuth-Konfiguration"
 weight: 25
 ---
 
-# OAuth-Konfiguration
-
 Das Engelsystem unterstützt OAuth 2.0 für externe Authentifizierungsanbieter. Damit können sich Benutzer mit Konten von Identity-Providern wie Keycloak, GitHub oder anderen OAuth-kompatiblen Diensten anmelden.
 
 ## Wie OAuth funktioniert

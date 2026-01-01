@@ -3,8 +3,6 @@ title: "Schichten verwalten"
 weight: 10
 ---
 
-# Schichten verwalten
-
 Diese Seite behandelt das Erstellen, Bearbeiten und Organisieren von Schichten im Engelsystem.
 
 ## Schichten erstellen

@@ -2,8 +2,6 @@
 title: "Engelsystem Dokumentation"
 ---
 
-# Engelsystem Dokumentation
-
 Das Engelsystem ist ein Freiwilligen-Management- und Schichtplanungssystem für Veranstaltungen. Es hilft dem Organisationsteam bei der Koordination von Freiwilligen durch Verwaltung von Schichtplänen, Nachverfolgung von Qualifikationen, Erfassung von Arbeitsstunden und Verteilung von Belohnungen.
 
 ## Kernkonzepte

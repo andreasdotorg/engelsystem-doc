@@ -3,8 +3,6 @@ title: "Datenbank"
 weight: 20
 ---
 
-# Datenbank
-
 Das Engelsystem verwendet MySQL/MariaDB mit Eloquent ORM für den Datenbankzugriff. Diese Seite dokumentiert das Schema, die Models und das Migrationssystem.
 
 ## Schema-Überblick
