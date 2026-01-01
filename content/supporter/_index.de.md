@@ -5,6 +5,18 @@ weight: 20
 
 Supporter sind Teamleiter für bestimmte Engeltypen. Wenn du zum Supporter ernannt wurdest, bist du dafür verantwortlich, die Engel deines Teams zu unterstützen und sicherzustellen, dass Schichten besetzt werden.
 
+{{% notice info %}}
+**Supporter ist keine Berechtigungsgruppe.** Anders als Rollen wie Shift Coordinator oder Bureaucrat wirst du nicht einer „Supporter-Gruppe" zugewiesen. Stattdessen ist Supporter eine engeltyp-spezifische Fähigkeit. Du wirst Supporter für bestimmte Engeltypen, denen du angehörst, und deine Supporter-Fähigkeiten gelten nur für diese Typen. Du könntest Supporter für „Bar" sein, aber nur ein normales Mitglied von „Security".
+{{% /notice %}}
+
+## Wie du Supporter wirst
+
+Du kannst zum Supporter ernannt werden durch:
+- Einen **Shift Coordinator** oder jemanden mit Engeltyp-Verwaltungsrechten
+- Einen **bestehenden Supporter** für diesen Engeltyp (wenn das System entsprechend konfiguriert ist)
+
+Wenn dich jemand zum Supporter macht, siehst du „Supporter" neben deinem Namen auf der Engeltyp-Seite.
+
 ## Was Supporter tun
 
 Als Supporter bist du Ansprechperson für deinen Engeltyp. Wenn jemand deinem Team beitreten möchte, bist du es, der sie bestätigt. Wenn eine Schicht besetzt werden muss, kannst du Engel aus deinem Team eintragen. Wenn jemand Fragen zur Arbeit hat, bist du da, um sie zu beantworten.
