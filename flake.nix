@@ -107,6 +107,9 @@
               # Disable server tokens
               server_tokens off;
 
+              # Use relative redirects to avoid port mismatch with NodePort/LoadBalancer
+              absolute_redirect off;
+
               # Redirect root to /doc/
               location = / {
                 return 301 /doc/;
