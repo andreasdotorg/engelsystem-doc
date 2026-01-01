@@ -21,6 +21,9 @@
                       else system;
         linuxPkgs = nixpkgs.legacyPackages.${linuxSystem};
 
+        # Git short hash for image tagging
+        imageTag = self.shortRev or self.dirtyShortRev or "dev";
+
         # Build the static site with Hugo (platform-independent output)
         staticSite = pkgs.stdenv.mkDerivation {
           pname = "engelsystem-doc";
@@ -93,6 +96,9 @@
             gzip_comp_level 6;
             gzip_types text/plain text/css text/xml application/json application/javascript application/xml+rss application/atom+xml image/svg+xml;
 
+            # Enable ETags for cache validation
+            etag on;
+
             server {
               listen 8080;
               server_name _;
@@ -111,10 +117,15 @@
                 alias /var/www/html/;
                 try_files $uri $uri/ =404;
 
-                # Cache static assets
+                # Cache static assets aggressively (fingerprinted by Hugo)
                 location ~* \.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2)$ {
                   expires 1y;
                   add_header Cache-Control "public, immutable";
+                }
+
+                # HTML files: always revalidate with ETag
+                location ~* \.html$ {
+                  add_header Cache-Control "no-cache";
                 }
               }
 
@@ -166,7 +177,7 @@
                   fsGroup: 65534
                 containers:
                 - name: nginx
-                  image: engelsystem-doc:latest
+                  image: engelsystem-doc:${imageTag}
                   imagePullPolicy: Never
                   ports:
                   - containerPort: 8080
@@ -215,7 +226,7 @@
         # Hardened Docker image (always Linux)
         dockerImage = linuxPkgs.dockerTools.buildLayeredImage {
           name = "engelsystem-doc";
-          tag = "latest";
+          tag = imageTag;
 
           contents = [
             linuxPkgs.nginx
@@ -307,6 +318,9 @@
             program = toString (pkgs.writeShellScript "minikube-deploy" ''
               set -e
 
+              IMAGE_TAG="${imageTag}"
+              IMAGE_NAME="engelsystem-doc:$IMAGE_TAG"
+
               # Check for required commands
               command -v minikube >/dev/null 2>&1 || { echo "Error: minikube is not installed"; exit 1; }
               command -v kubectl >/dev/null 2>&1 || { echo "Error: kubectl is not installed"; exit 1; }
@@ -320,8 +334,12 @@
               fi
 
               echo ""
-              echo "==> Building Docker image..."
-              nix build .#docker
+              echo "==> Building Docker image (tag: $IMAGE_TAG)..."
+              nix build .#docker --refresh
+
+              echo ""
+              echo "==> Removing old image from minikube (if exists)..."
+              minikube image rm "$IMAGE_NAME" 2>/dev/null || true
 
               echo ""
               echo "==> Loading image into minikube..."
@@ -332,11 +350,15 @@
               kubectl apply -f ${k8sManifest}
 
               echo ""
+              echo "==> Restarting deployment to pick up new image..."
+              kubectl -n engelsystem-doc rollout restart deployment/engelsystem-doc
+
+              echo ""
               echo "==> Waiting for deployment to be ready..."
               kubectl -n engelsystem-doc rollout status deployment/engelsystem-doc --timeout=60s
 
               echo ""
-              echo "==> Deployment successful!"
+              echo "==> Deployment successful! (image: $IMAGE_NAME)"
               echo ""
               echo "Access the documentation at:"
               minikube service engelsystem-doc -n engelsystem-doc --url
@@ -351,6 +373,9 @@
             program = toString (pkgs.writeShellScript "minikube-stop" ''
               set -e
 
+              IMAGE_TAG="${imageTag}"
+              IMAGE_NAME="engelsystem-doc:$IMAGE_TAG"
+
               # Check for required commands
               command -v minikube >/dev/null 2>&1 || { echo "Error: minikube is not installed"; exit 1; }
               command -v kubectl >/dev/null 2>&1 || { echo "Error: kubectl is not installed"; exit 1; }
@@ -359,8 +384,8 @@
               kubectl delete -f ${k8sManifest} --ignore-not-found
 
               echo ""
-              echo "==> Removing image from minikube..."
-              minikube image rm engelsystem-doc:latest 2>/dev/null || true
+              echo "==> Removing image from minikube ($IMAGE_NAME)..."
+              minikube image rm "$IMAGE_NAME" 2>/dev/null || true
 
               echo ""
               echo "==> Cleanup complete!"
