@@ -38,6 +38,7 @@ The system uses role-based permissions:
 
 - **[User Guide](user/)** - For volunteers: registration, shifts, and profile management
 - **[Supporter Guide](supporter/)** - For team leads: managing angel type membership
+- **[Shift Coordinator Guide](shift-coordinator/)** - For shift coordinators: creating and managing shifts
 - **[Bureaucrat Guide](bureaucrat/)** - For administrators: user and worklog management
 - **[Administration](admin/)** - Server setup and system configuration
 - **[Development](developer/)** - Technical architecture and contribution guide

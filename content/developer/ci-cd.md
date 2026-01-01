@@ -135,18 +135,6 @@ Protected variables are only available on protected branches.
 Run the same checks locally before pushing:
 
 ```bash
-# Run all Nix checks
-nix flake check
-
-# Individual checks
-nix run .#check-phpcs     # Code style
-nix run .#check-phpstan   # Static analysis
-nix run .#check-phpunit   # Test suite
-```
-
-Or with traditional tools:
-
-```bash
 # PHP code style
 vendor/bin/phpcs
 
@@ -155,6 +143,9 @@ vendor/bin/phpstan analyze
 
 # Tests
 vendor/bin/phpunit
+
+# Frontend checks
+yarn lint
 ```
 
 ## Docker Image
@@ -230,7 +221,8 @@ kubectl set image deployment/engelsystem \
 
 Run the specific check locally to see detailed errors:
 ```bash
-nix run .#check-phpcs
+vendor/bin/phpcs
+vendor/bin/phpstan analyze
 ```
 
 **Tests fail with database errors**
