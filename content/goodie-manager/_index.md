@@ -7,48 +7,15 @@ Goodie Managers handle the distribution of t-shirts, merchandise, and other phys
 
 ## What Goodie Managers Do
 
-Your role combines several responsibilities:
-- **Check eligibility** - Verify volunteers have worked required hours
-- **Mark active status** - Designate volunteers as "active" for goodie eligibility
-- **Track distribution** - Record when goodies have been handed out
-- **Manage arrivals** - You can also mark volunteers as arrived
-
-## Required Permissions
-
-To function as a Goodie Manager, you need to be a member of the **Goodie Manager** group. This group grants:
-
-| Privilege | What it does |
-|-----------|--------------|
-| `admin_active` | Mark users as active for goodie eligibility |
-| `admin_arrive` | Mark users as arrived |
-| `user.goodie.edit` | Mark users as having received goodies |
-| `user.info.view` | View sensitive user information (name, contact) |
-| `user.info.hint` | See indicators when user info is restricted |
-| `users.arrive.list` | Access the arrival list |
-| `angeltype.goodie.list` | View goodie lists per angel type |
-
-You should also be in the **Angel** group for basic system access.
+Your role combines checking eligibility (verifying volunteers have worked the required hours), marking active status (designating volunteers as eligible for goodies), tracking distribution (recording when goodies have been handed out), and managing arrivals (you can also mark volunteers as arrived).
 
 ## Understanding Eligibility
 
-The goodie system typically works like this:
-
-1. **Hours threshold** - Volunteers must work a minimum number of hours
-2. **Active status** - Someone marks them as "active" (eligible for goodies)
-3. **Distribution** - Goodie Manager records that they received their goodie
-
-The exact requirements depend on your event's configuration.
+The goodie system typically requires volunteers to work a minimum number of hours, after which someone marks them as "active" (eligible for goodies). When they pick up their goodie, you record the distribution. The exact requirements depend on your event's configuration.
 
 ## Getting Started
 
-1. **Access the user list** - Navigate to the arrival or user management area
-2. **View eligibility** - Check volunteer work hours
-3. **Mark as active** - Set active status for eligible volunteers
-4. **Record distribution** - Mark when goodies are handed out
-
-## Documentation
-
-- [Distributing Goodies](goodies/) - Step-by-step guide for goodie distribution
+Navigate to the arrival or user management area to access the user list. Check volunteer work hours to view eligibility, set active status for eligible volunteers, then mark when goodies are handed out.
 
 {{% notice tip %}}
 Have a system for tracking t-shirt sizes. You'll want to know what's been requested before volunteers arrive at your distribution point.

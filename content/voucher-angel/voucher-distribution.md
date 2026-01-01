@@ -7,26 +7,13 @@ This guide covers the process of checking voucher eligibility and recording dist
 
 ## Understanding Voucher Eligibility
 
-Volunteers earn vouchers based on configured rules. Common configurations:
+Volunteers earn vouchers based on configured rules. Common configurations include hours-based earning (one voucher per X hours worked), arrival vouchers (given just for arriving), and maximum caps (limiting total vouchers per person).
 
-- **Hours-based** - Earn 1 voucher per X hours worked
-- **Arrival voucher** - Get a voucher just for arriving
-- **Maximum cap** - Limit on total vouchers per person
-
-The system automatically calculates earned vouchers based on:
-- Worked shifts (completed, not just signed up)
-- Manual worklog entries
-- Force-awarded vouchers from coordinators
+The system automatically calculates earned vouchers based on completed shifts (not just signups), manual worklog entries, and any force-awarded vouchers from coordinators.
 
 ## Checking a Volunteer's Status
 
-When someone asks for vouchers:
-
-1. **Find them in the user list** - Search by name or nickname
-2. **View their voucher status** - See:
-   - Vouchers earned (based on hours)
-   - Vouchers already received
-   - Vouchers available to claim
+When someone asks for vouchers, find them in the user list by searching for their name or nickname. Their voucher status shows vouchers earned (based on hours), vouchers already received, and vouchers available to claim.
 
 {{% notice note %}}
 If you see a hint icon next to user information, some of their details are restricted. This doesn't affect voucher distribution.
@@ -34,49 +21,22 @@ If you see a hint icon next to user information, some of their details are restr
 
 ## Recording Voucher Distribution
 
-When handing out vouchers:
-
-1. Verify the person matches the account
-2. Check how many vouchers they can receive
-3. Hand over the physical vouchers
-4. Update the "got voucher" count in the system
-
-The system tracks:
-- How many vouchers they're entitled to
-- How many they've already received
-- The remaining balance
+When handing out vouchers, verify the person matches the account, check how many vouchers they can receive, hand over the physical vouchers, then update the "got voucher" count in the system. The system tracks entitlement, what's been received, and the remaining balance.
 
 ## Handling Edge Cases
 
 ### "I should have more vouchers"
 
-If someone believes they're owed more vouchers:
-
-1. Check their worked hours in their profile
-2. Verify shifts are marked as worked (not just signed up)
-3. Check if any worklogs need to be added
-4. Direct them to a Shift Coordinator if there's a discrepancy
+If someone believes they're owed more vouchers, check their worked hours in their profile and verify shifts are marked as worked (not just signed up). There may be worklogs that need to be added. Direct them to a Shift Coordinator if there's a discrepancy you can't resolve.
 
 ### Already Received
 
-If the system shows they've already received their vouchers:
-- Another Voucher Angel may have distributed to them
-- They may have received them at a different distribution point
-- Check with your coordinator if they claim this is an error
+If the system shows they've already received their vouchers, another Voucher Angel may have distributed to them, or they received them at a different distribution point. Check with your coordinator if they claim this is an error.
 
 ### Not Yet Arrived
 
-If someone isn't marked as arrived:
-- They may need to check in at the Welcome Angel desk first
-- Some events require arrival marking before voucher distribution
+If someone isn't marked as arrived, they may need to check in at the Welcome Angel desk first. Some events require arrival marking before voucher distribution.
 
 ## Best Practices
 
-- **Verify identity** before distributing vouchers
-- **Update immediately** when you hand out vouchers (don't batch updates)
-- **Keep stock counted** to avoid running out
-- **Contact coordinators** if you spot patterns of issues
-
-## Related Topics
-
-- [Role Management]({{% relref "/admin/role_management" %}}) - Understanding Voucher Angel privileges
+Verify identity before distributing vouchers. Update the system immediately when you hand out vouchers—don't batch updates. Keep your stock counted to avoid running out, and contact coordinators if you spot patterns of issues.
