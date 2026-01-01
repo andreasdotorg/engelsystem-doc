@@ -19,13 +19,7 @@ Engeltypen können mit verschiedenen Zugangsstufen konfiguriert werden:
 
 ## Engeltypen ansehen
 
-Die Engeltypen-Seite zeigt alle bei deiner Veranstaltung verfügbaren Typen. Jeder Typ zeigt:
-
-- **Name und Beschreibung** - Was die Arbeit beinhaltet
-- **Mitgliederanzahl** - Wie viele Personen beigetreten sind
-- **Schichtanzahl** - Wie viele Schichten für diesen Typ existieren
-- **Zugangsstufe** - Ob du dich selbst anmelden kannst oder Genehmigung brauchst
-- **Supporter** - Teamleiter, die diesen Typ verwalten
+Die Engeltypen-Seite zeigt alle bei deiner Veranstaltung verfügbaren Typen. Jeder Typ zeigt Namen und Beschreibung der Arbeit, die aktuelle Mitgliederanzahl, die Anzahl verfügbarer Schichten, die Zugangsstufe (ob du dich selbst anmelden kannst oder Genehmigung brauchst) und die Supporter, die das Team verwalten.
 
 ## Einem Engeltyp beitreten
 

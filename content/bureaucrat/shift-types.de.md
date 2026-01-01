@@ -5,10 +5,6 @@ weight: 40
 
 Schichttypen definieren Kategorien von Schichten mit gemeinsamen Eigenschaften. Sie helfen, die Schichterstellung zu standardisieren und bieten konsistente Benennung über dein Event hinweg.
 
-## Erforderliches Privileg
-
-Du brauchst das `shifttypes.edit`-Privileg, um Schichttypen zu verwalten. Das ist in der Bureaucrat-Gruppe enthalten. Das `shifttypes.view`-Privileg (in Shift Coordinator enthalten) erlaubt Anzeigen, aber nicht Bearbeiten.
-
 ## Wofür Schichttypen da sind
 
 Schichttypen kategorisieren Schichten nach ihrem Zweck:
@@ -83,8 +79,3 @@ Vor dem Löschen eines Schichttyps:
 {{% notice warning %}}
 Schichten können verwaist werden, wenn ihr Schichttyp gelöscht wird. Schichten zuerst neu zuweisen.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Schichten verwalten]({{% relref "/shift-coordinator/shifts" %}}) - Schichten mit Schichttypen erstellen
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Bureaucrat-Privilegien

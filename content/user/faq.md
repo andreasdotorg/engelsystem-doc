@@ -45,8 +45,3 @@ If the FAQ doesn't have your answer, you can submit a question directly to the o
 {{% notice note %}}
 Questions are not public. Only you and coordinators can see your questions and answers.
 {{% /notice %}}
-
-## Related Topics
-
-- [User Guide]({{% relref "/user" %}}) - Overview of user features
-- [FAQ Management]({{% relref "/shift-coordinator/faq-management" %}}) - For coordinators managing FAQ entries

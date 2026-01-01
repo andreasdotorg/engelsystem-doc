@@ -5,10 +5,6 @@ weight: 20
 
 Engeltypen definieren die Kategorien von Freiwilligenarbeit bei deinem Event. Bürokraten können Engeltypen erstellen, bearbeiten und konfigurieren, um sie an die Bedürfnisse deines Events anzupassen.
 
-## Erforderliches Privileg
-
-Du brauchst das `admin_angel_types`-Privileg, um Engeltypen zu verwalten. Das ist in der Bureaucrat-Gruppe enthalten.
-
 ## Was Engeltypen repräsentieren
 
 Jeder Engeltyp ist eine Kategorie von Arbeit, für die sich Freiwillige anmelden können:
@@ -97,8 +93,3 @@ Vor dem Löschen eines Engeltyps:
 {{% notice warning %}}
 Das Löschen eines Engeltyps kann die Schichtabdeckung und Freiwilligen-Berechtigung beeinflussen. Plane sorgfältig.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Supporter-Handbuch]({{% relref "/supporter" %}}) - Wie Supporter Engeltypen verwalten
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Bureaucrat-Privilegien

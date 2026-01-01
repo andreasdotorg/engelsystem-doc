@@ -41,12 +41,6 @@ When you log in, the system will alert you if there are unconfirmed angels waiti
 
 Your angel type page shows all members, their status (confirmed, unconfirmed, or supporter), and any pending requests. From there you can manage your team.
 
-## Documentation
-
-- [Managing Angels](managing-angels/) - How to confirm, add, and remove team members
-- [Managing Shifts](managing-shifts/) - How to help angels sign up for shifts
-- [Communication](news/) - Keeping your team informed
-
 {{% notice tip %}}
 The best supporters lead by example. Take shifts yourself, help newcomers during their first shifts, and be available to answer questions. Your experience is valuable - share it.
 {{% /notice %}}

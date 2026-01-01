@@ -5,10 +5,6 @@ weight: 70
 
 Tags helfen beim Organisieren und Filtern von Schichten, Orten und anderen Entitäten im System.
 
-## Erforderliches Privileg
-
-Du brauchst das `tag.edit`-Privileg, um Tags zu verwalten. Das ist in der Shift Coordinator-Gruppe enthalten.
-
 ## Wofür Tags da sind
 
 Tags bieten flexible Kategorisierung über feste Strukturen hinaus. Häufige Verwendungen:
@@ -47,8 +43,3 @@ Tags helfen Freiwilligen, relevante Möglichkeiten zu finden, und helfen Koordin
 - **Nicht über-taggen** - Zu viele Tags werden verwirrend
 - **Bedeutungen dokumentieren** - Sicherstellen, dass Teammitglieder wissen, was jeder Tag bedeutet
 - **Regelmäßig überprüfen** - Unbenutzte Tags entfernen, Duplikate zusammenführen
-
-## Verwandte Themen
-
-- [Schichten verwalten](shifts/) - Wo Tags häufig verwendet werden
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Shift Coordinator-Privilegien

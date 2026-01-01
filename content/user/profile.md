@@ -87,8 +87,3 @@ Keep your API key secret - it provides access to your account.
 ## Privacy Note
 
 Some of your information may be visible to other volunteers or coordinators, depending on event configuration. Fields marked as restricted are only visible to users with appropriate permissions.
-
-## Related Topics
-
-- [User Guide]({{% relref "/user" %}}) - Overview of user features
-- [Registration]({{% relref "/user/register" %}}) - Setting up your account

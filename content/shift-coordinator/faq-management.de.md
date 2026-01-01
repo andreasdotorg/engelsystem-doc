@@ -5,10 +5,6 @@ weight: 30
 
 Shift Coordinators können FAQ-Einträge erstellen und bearbeiten, um häufige Fragen zu beantworten, bevor Freiwillige fragen müssen.
 
-## Erforderliches Privileg
-
-Du brauchst das `faq.edit`-Privileg, um FAQ-Einträge zu verwalten. Das ist in der Shift Coordinator-Gruppe enthalten.
-
 ## FAQ-Verwaltung aufrufen
 
 Navigiere zu **FAQ** und klicke auf die Bearbeiten- oder Verwaltungsoption, um zur FAQ-Administration zu gelangen.
@@ -58,8 +54,3 @@ Erwäge FAQ-Einträge hinzuzufügen, wenn:
 {{% notice tip %}}
 Überprüfe die Fragen-Warteschlange regelmäßig. Wiederholte Fragen sind gute Kandidaten für neue FAQ-Einträge.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Fragen beantworten](questions/) - Individuelle Freiwilligen-Fragen bearbeiten
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Shift Coordinator-Privilegien

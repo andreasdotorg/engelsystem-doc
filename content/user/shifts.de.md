@@ -15,13 +15,7 @@ Die Schichtübersicht zeigt alle verfügbaren Schichten. Du kannst filtern nach:
 - **Ort** - Arbeite in Bereichen, die du kennst
 - **Engeltyp** - Filtere nach Art der Arbeit
 
-Jeder Schichteintrag zeigt:
-
-- Start- und Endzeit
-- Ortsname
-- Erforderlicher Engeltyp
-- Anzahl der Plätze (belegt/gesamt)
-- Beschreibung der Arbeit
+Jeder Schichteintrag zeigt die Start- und Endzeit, den Ortsnamen, den erforderlichen Engeltyp, die Anzahl der Plätze (belegt von gesamt) und eine Beschreibung der Arbeit.
 
 ## Eintragen
 

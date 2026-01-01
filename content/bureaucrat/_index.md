@@ -38,12 +38,6 @@ When you log in, check for pending questions from angels. These appear in the Qu
 
 Your main tools are the user administration area and the FAQ/Questions sections. Get familiar with these first - they're where you'll spend most of your time.
 
-## Documentation
-
-- [User Management](user-management/) - Finding and editing user accounts
-- [Event Operations](event-setup/) - Working with the event data
-- [Reports and Logs](reports/) - Viewing statistics and activity
-
 {{% notice tip %}}
 Good bureaucrats make everyone else's job easier. When you see the same question asked repeatedly, add it to the FAQ. When you notice a confusing workflow, document it. Your administrative work has ripple effects across the whole event.
 {{% /notice %}}

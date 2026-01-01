@@ -4,7 +4,7 @@ date: 2024-04-08T22:10:00+02:00
 weight: 60
 ---
 
-Dieser Abschnitt bietet technische Dokumentation für Entwickler, die Engelsystem verstehen, erweitern oder dazu beitragen möchten. Egal ob du einen Bug behebst, ein Feature hinzufügst oder mit externen Systemen integrierst - du findest hier den architektonischen Kontext und die Patterns, die du brauchst.
+Dieser Abschnitt bietet technische Dokumentation für Entwickler*innen, die Engelsystem verstehen, erweitern oder dazu beitragen möchten. Egal ob du einen Bug behebst, ein Feature hinzufügst oder mit externen Systemen integrierst - du findest hier den architektonischen Kontext und die Patterns, die du brauchst.
 
 ## Schnellstart für Beitragende
 

@@ -19,13 +19,7 @@ Angel types can be configured with different access levels:
 
 ## Viewing Angel Types
 
-The Angel Types page shows all types available at your event. Each type displays:
-
-- **Name and Description** - What the work involves
-- **Member Count** - How many people have joined
-- **Shift Count** - How many shifts exist for this type
-- **Access Level** - Whether you can self-signup or need approval
-- **Supporters** - Team leads who manage this type
+The Angel Types page shows all types available at your event. Each type displays its name and description explaining what the work involves, the current member count, the number of shifts available, the access level indicating whether you can self-signup or need approval, and the supporters who manage the team.
 
 ## Joining an Angel Type
 

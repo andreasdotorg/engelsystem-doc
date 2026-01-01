@@ -45,8 +45,3 @@ Wenn die FAQ deine Antwort nicht hat, kannst du eine Frage direkt an die Organis
 {{% notice note %}}
 Fragen sind nicht öffentlich. Nur du und Koordinatoren können deine Fragen und Antworten sehen.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Benutzerhandbuch]({{% relref "/user" %}}) - Überblick über Benutzer-Features
-- [FAQ-Verwaltung]({{% relref "/shift-coordinator/faq-management" %}}) - Für Koordinatoren, die FAQ-Einträge verwalten

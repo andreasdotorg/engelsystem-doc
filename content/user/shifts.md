@@ -15,13 +15,7 @@ The shift overview shows all available shifts. You can filter by:
 - **Location** - Work in areas you're familiar with
 - **Angel Type** - Filter by the type of work
 
-Each shift listing shows:
-
-- Start and end time
-- Location name
-- Required angel type
-- Number of positions (filled/total)
-- Description of the work
+Each shift listing shows the start and end time, location name, required angel type, number of positions filled out of the total available, and a description of the work involved.
 
 ## Signing Up
 

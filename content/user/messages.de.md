@@ -41,7 +41,3 @@ Das System zeigt einen Benachrichtigungsindikator, wenn du ungelesene Nachrichte
 {{% notice tip %}}
 Nutze Nachrichten für Koordination, die nicht öffentlich sein muss. Für Ankündigungen, die alle erreichen sollen, bitte einen Koordinator, stattdessen News zu posten.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Benutzerhandbuch]({{% relref "/user" %}}) - Überblick über Benutzer-Features

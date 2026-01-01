@@ -5,10 +5,6 @@ weight: 40
 
 Volunteers can submit questions through the Q&A system. Shift Coordinators review and answer these questions.
 
-## Required Privilege
-
-You need the `question.edit` privilege to view and answer questions. This is included in the Shift Coordinator group.
-
 ## Accessing Questions
 
 Navigate to **Questions** in the admin menu to see all submitted questions.
@@ -57,8 +53,3 @@ Watch for patterns in questions:
 {{% notice tip %}}
 If you see the same question repeatedly, it's time to post a news announcement or add an FAQ entry rather than answering individually.
 {{% /notice %}}
-
-## Related Topics
-
-- [FAQ Management](faq-management/) - Creating FAQ entries for common questions
-- [Role Management]({{% relref "/admin/role_management" %}}) - Shift Coordinator privileges
