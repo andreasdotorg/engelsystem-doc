@@ -5,6 +5,18 @@ weight: 20
 
 Supporters are team leads for specific angel types. If you've been made a supporter, you're responsible for helping manage your team's angels and ensuring shifts are covered.
 
+{{% notice info %}}
+**Supporter is not a permission group.** Unlike roles like Shift Coordinator or Bureaucrat, you don't get assigned to a "Supporter group." Instead, supporter is a per-angel-type capability. You become a supporter for specific angel types you belong to, and your supporter abilities only apply to those types. You might be a supporter for "Bar" but just a regular member of "Security."
+{{% /notice %}}
+
+## How You Become a Supporter
+
+You can be made a supporter by:
+- A **Shift Coordinator** or someone with angel type management privileges
+- An **existing supporter** for that angel type (if the system is configured to allow this)
+
+When someone makes you a supporter, you'll see "Supporter" next to your name on the angel type page.
+
 ## What Supporters Do
 
 Being a supporter means you're a point of contact for your angel type. When someone wants to join your team, you're the one who confirms them. When a shift needs filling, you can sign up angels from your team. When someone has questions about the work, you're there to answer them.

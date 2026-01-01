@@ -32,6 +32,24 @@ The system checks privileges at multiple levels:
 - **Controller actions** - Each action verifies the required privilege before execution
 - **UI elements** - Buttons and forms are conditionally rendered based on permissions
 
+### Supporter: A Different Kind of Permission
+
+**Important:** "Supporter" is **not** a group. It's a per-angel-type capability that exists separately from the group system.
+
+When a user is marked as a supporter for an angel type:
+- They can approve/deny membership requests for that specific angel type
+- They can add or remove members from that angel type
+- They can sign up team members for shifts requiring that angel type
+- They can edit the angel type's description (but not other settings)
+
+A user might be a supporter for "Bar" while being just a regular member of "Security." The supporter capability is independent of group membership - it doesn't require any special group.
+
+**Who can make someone a supporter:**
+- Users with the `admin_user_angeltypes` privilege (typically Shift Coordinators)
+- Existing supporters for that angel type (if `supporters_can_promote` is enabled in config)
+
+For user-facing documentation about being a supporter, see the [Supporter Guide]({{% relref "/supporter" %}}).
+
 ## Groups
 
 Engelsystem includes eight predefined groups. Each event can customize these or create additional groups.

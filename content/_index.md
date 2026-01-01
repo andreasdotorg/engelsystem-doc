@@ -14,17 +14,26 @@ Engelsystem is a volunteer management and shift planning system for events. It h
 
 **Locations** define where shifts take place - rooms, entrances, stations, or any area at your event.
 
-## User Roles
+## Permission Groups
 
-The system uses role-based permissions:
+Engelsystem uses groups to control what users can do. Users are assigned to one or more groups:
 
-| Role | Purpose |
-|------|---------|
-| Volunteer | Sign up for shifts, track hours, claim rewards |
-| Supporter | Approve angel type applications, manage team members |
-| Shift Coordinator | Create and manage shifts |
-| Bureaucrat | Administer users, manage worklogs |
-| Administrator | Full system configuration |
+| Group | Purpose |
+|-------|---------|
+| Angel | Base volunteer - sign up for shifts, track hours, earn rewards |
+| Welcome Angel | Check-in desk - mark volunteer arrivals |
+| Voucher Angel | Distribute food and drink vouchers |
+| Goodie Manager | Handle t-shirt and merchandise distribution |
+| Shift Coordinator | Create shifts, manage users, answer questions |
+| Bureaucrat | Configure event structure (angel types, locations, shift types) |
+| API | Access the programmatic API for integrations |
+| Developer | Full system administration and configuration |
+
+Most volunteers only need the **Angel** group. Specialized roles get additional groups as needed.
+
+### Supporter Capability
+
+**Supporter** is different from groups above - it's a per-angel-type capability, not a system-wide role. Any Angel can be made a Supporter for specific angel types they belong to. Supporters can approve membership requests and manage shifts for their team. See the [Supporter Guide](supporter/) for details.
 
 ## Getting Started
 
@@ -36,10 +45,18 @@ The system uses role-based permissions:
 
 ## Documentation Sections
 
-- **[User Guide](user/)** - For volunteers: registration, shifts, and profile management
-- **[Supporter Guide](supporter/)** - For team leads: managing angel type membership
-- **[Shift Coordinator Guide](shift-coordinator/)** - For shift coordinators: creating and managing shifts
-- **[Bureaucrat Guide](bureaucrat/)** - For administrators: user and worklog management
-- **[Administration](admin/)** - Server setup and system configuration
+### User Guides
+
+- **[User Guide](user/)** - For all volunteers: registration, shifts, profile, and messaging
+- **[Supporter Guide](supporter/)** - For team leads: managing angel type membership and team shifts
+- **[Welcome Angel Guide](welcome-angel/)** - For check-in desk: marking arrivals
+- **[Voucher Angel Guide](voucher-angel/)** - For voucher distribution
+- **[Goodie Manager Guide](goodie-manager/)** - For t-shirt and merchandise distribution
+- **[Shift Coordinator Guide](shift-coordinator/)** - For coordinators: shifts, users, FAQ, and worklogs
+- **[Bureaucrat Guide](bureaucrat/)** - For organizers: angel types, locations, and event structure
+
+### Technical Documentation
+
+- **[Administration](admin/)** - Server setup, configuration, and role management
 - **[Development](developer/)** - Technical architecture and contribution guide
-- **[API](api/)** - REST API reference
+- **[API Reference](api/)** - REST API for integrations

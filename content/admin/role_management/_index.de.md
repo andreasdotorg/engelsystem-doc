@@ -32,6 +32,24 @@ Das System prüft Privilegien auf mehreren Ebenen:
 - **Controller-Aktionen** - Jede Aktion überprüft das erforderliche Privileg vor der Ausführung
 - **UI-Elemente** - Buttons und Formulare werden bedingt basierend auf Berechtigungen gerendert
 
+### Supporter: Eine andere Art von Berechtigung
+
+**Wichtig:** "Supporter" ist **keine** Gruppe. Es ist eine engeltyp-spezifische Fähigkeit, die getrennt vom Gruppensystem existiert.
+
+Wenn ein Benutzer als Supporter für einen Engeltyp markiert ist:
+- Kann er Mitgliedschaftsanfragen für diesen spezifischen Engeltyp genehmigen/ablehnen
+- Kann er Mitglieder zu diesem Engeltyp hinzufügen oder entfernen
+- Kann er Teammitglieder für Schichten anmelden, die diesen Engeltyp erfordern
+- Kann er die Beschreibung des Engeltyps bearbeiten (aber nicht andere Einstellungen)
+
+Ein Benutzer könnte Supporter für "Bar" sein, während er nur ein normales Mitglied von "Security" ist. Die Supporter-Fähigkeit ist unabhängig von der Gruppenzugehörigkeit - sie erfordert keine spezielle Gruppe.
+
+**Wer jemanden zum Supporter machen kann:**
+- Benutzer mit dem `admin_user_angeltypes`-Privileg (typischerweise Shift Coordinators)
+- Bestehende Supporter für diesen Engeltyp (wenn `supporters_can_promote` in der Konfiguration aktiviert ist)
+
+Für benutzerseitige Dokumentation zum Supporter-Sein, siehe das [Supporter-Handbuch]({{% relref "/supporter" %}}).
+
 ## Gruppen
 
 Engelsystem enthält acht vordefinierte Gruppen. Jedes Event kann diese anpassen oder zusätzliche Gruppen erstellen.

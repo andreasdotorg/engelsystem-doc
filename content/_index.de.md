@@ -14,17 +14,26 @@ Das Engelsystem ist ein Freiwilligen-Management- und Schichtplanungssystem für 
 
 **Orte** definieren, wo Schichten stattfinden - Räume, Eingänge, Stationen oder beliebige Bereiche bei deiner Veranstaltung.
 
-## Benutzerrollen
+## Berechtigungsgruppen
 
-Das System verwendet rollenbasierte Berechtigungen:
+Engelsystem verwendet Gruppen um zu steuern, was Benutzer tun können. Benutzer werden einer oder mehreren Gruppen zugewiesen:
 
-| Rolle | Zweck |
-|-------|-------|
-| Freiwillige*r | Für Schichten anmelden, Stunden verfolgen, Belohnungen beanspruchen |
-| Supporter | Engeltyp-Bewerbungen genehmigen, Teammitglieder verwalten |
-| Schichtkoordinator*in | Schichten erstellen und verwalten |
-| Bürokrat | Benutzer administrieren, Arbeitsprotokolle verwalten |
-| Administrator*in | Vollständige Systemkonfiguration |
+| Gruppe | Zweck |
+|--------|-------|
+| Angel | Basis-Freiwillige - für Schichten anmelden, Stunden erfassen, Belohnungen verdienen |
+| Welcome Angel | Anmeldeschalter - Ankunft von Freiwilligen markieren |
+| Voucher Angel | Essens- und Getränkegutscheine verteilen |
+| Goodie Manager | T-Shirt- und Merchandise-Verteilung |
+| Shift Coordinator | Schichten erstellen, Benutzer verwalten, Fragen beantworten |
+| Bureaucrat | Event-Struktur konfigurieren (Engeltypen, Orte, Schichttypen) |
+| API | Zugriff auf die programmatische API für Integrationen |
+| Developer | Vollständige Systemadministration und -konfiguration |
+
+Die meisten Freiwilligen brauchen nur die **Angel**-Gruppe. Spezialisierte Rollen erhalten bei Bedarf zusätzliche Gruppen.
+
+### Supporter-Fähigkeit
+
+**Supporter** unterscheidet sich von den obigen Gruppen - es ist eine engeltyp-spezifische Fähigkeit, keine systemweite Rolle. Jeder Angel kann zum Supporter für bestimmte Engeltypen ernannt werden, denen er angehört. Supporter können Mitgliedschaftsanfragen genehmigen und Schichten für ihr Team verwalten. Siehe das [Supporter-Handbuch](supporter/) für Details.
 
 ## Erste Schritte
 
@@ -36,10 +45,18 @@ Das System verwendet rollenbasierte Berechtigungen:
 
 ## Dokumentationsbereiche
 
-- **[Benutzerhandbuch](user/)** - Für Freiwillige: Registrierung, Schichten und Profilverwaltung
-- **[Supporter-Handbuch](supporter/)** - Für Supporter: Engeltyp-Mitgliedschaft verwalten
-- **[Schichtkoordinator-Handbuch](shift-coordinator/)** - Für Schichtkoordinator*innen: Schichten erstellen und verwalten
-- **[Bürokraten-Handbuch](bureaucrat/)** - Für Bürokraten: Benutzer- und Arbeitsprotokollverwaltung
-- **[Administration](admin/)** - Servereinrichtung und Systemkonfiguration
+### Benutzerhandbücher
+
+- **[Benutzerhandbuch](user/)** - Für alle Freiwilligen: Registrierung, Schichten, Profil und Nachrichten
+- **[Supporter-Handbuch](supporter/)** - Für Teamleiter: Engeltyp-Mitgliedschaft und Team-Schichten verwalten
+- **[Welcome Angel-Handbuch](welcome-angel/)** - Für den Anmeldeschalter: Ankünfte markieren
+- **[Voucher Angel-Handbuch](voucher-angel/)** - Für die Gutscheinverteilung
+- **[Goodie Manager-Handbuch](goodie-manager/)** - Für T-Shirt- und Merchandise-Verteilung
+- **[Schichtkoordinator-Handbuch](shift-coordinator/)** - Für Koordinatoren: Schichten, Benutzer, FAQ und Arbeitsprotokolle
+- **[Bürokraten-Handbuch](bureaucrat/)** - Für Organisatoren: Engeltypen, Orte und Event-Struktur
+
+### Technische Dokumentation
+
+- **[Administration](admin/)** - Servereinrichtung, Konfiguration und Rollenverwaltung
 - **[Entwicklung](developer/)** - Technische Architektur und Beitragsrichtlinien
-- **[API](api/)** - REST-API-Referenz
+- **[API-Referenz](api/)** - REST-API für Integrationen
