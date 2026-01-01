@@ -16,7 +16,7 @@ Das Engelsystem ist ein Freiwilligen-Management- und Schichtplanungssystem für 
 
 ## Berechtigungsgruppen
 
-Engelsystem verwendet Gruppen um zu steuern, was Benutzer tun können. Benutzer werden einer oder mehreren Gruppen zugewiesen:
+Engelsystem verwendet Gruppen um zu steuern, was Benutzer*innen tun können. Benutzer*innen werden einer oder mehreren Gruppen zugewiesen:
 
 | Gruppe | Zweck |
 |--------|-------|

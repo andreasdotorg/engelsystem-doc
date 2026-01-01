@@ -87,8 +87,3 @@ Halte deinen API-Schlüssel geheim - er ermöglicht Zugriff auf dein Konto.
 ## Datenschutzhinweis
 
 Einige deiner Informationen könnten für andere Freiwillige oder Koordinatoren sichtbar sein, je nach Event-Konfiguration. Als eingeschränkt markierte Felder sind nur für Benutzer mit entsprechenden Berechtigungen sichtbar.
-
-## Verwandte Themen
-
-- [Benutzerhandbuch]({{% relref "/user" %}}) - Überblick über Benutzer-Features
-- [Registrierung]({{% relref "/user/register" %}}) - Dein Konto einrichten

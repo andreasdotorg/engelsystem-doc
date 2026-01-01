@@ -5,10 +5,6 @@ weight: 30
 
 Orte definieren, wo Schichten bei deinem Event stattfinden. Bürokraten verwalten die Liste der Orte und ihre Eigenschaften.
 
-## Erforderliches Privileg
-
-Du brauchst das `locations.edit`-Privileg, um Orte zu verwalten. Das ist in der Bureaucrat-Gruppe enthalten.
-
 ## Was Orte repräsentieren
 
 Orte sind physische oder virtuelle Plätze, wo Arbeit stattfindet:
@@ -84,8 +80,3 @@ Vor dem Löschen eines Ortes:
 {{% notice warning %}}
 Das Löschen eines Ortes mit aktiven Schichten wird diese Schichten beeinflussen. Verschiebe Schichten zuerst an einen anderen Ort.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [Schichten verwalten]({{% relref "/shift-coordinator/shifts" %}}) - Schichten an Orten erstellen
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Bureaucrat-Privilegien

@@ -5,13 +5,6 @@ weight: 10
 
 This section covers how to use the Engelsystem as a volunteer. You'll learn how to manage your account, find shifts, and track your hours.
 
-## Topics
-
-- [Registration](register/) - Creating your account
-- [Shifts](shifts/) - Finding and signing up for shifts
-- [Angel Types](angel-types/) - Understanding volunteer categories
-- [iCal Export](ical/) - Syncing shifts to your calendar
-
 ## User Journey
 
 The typical workflow in the Engelsystem:

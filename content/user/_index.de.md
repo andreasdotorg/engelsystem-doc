@@ -5,13 +5,6 @@ weight: 10
 
 Dieser Abschnitt behandelt die Nutzung des Engelsystems als Freiwillige*r. Du lernst, wie du deinen Account verwaltest, Schichten findest und deine Stunden verfolgst.
 
-## Themen
-
-- [Registrierung](register/) - Account erstellen
-- [Schichten](shifts/) - Schichten finden und anmelden
-- [Engeltypen](angel-types/) - Freiwilligen-Kategorien verstehen
-- [iCal-Export](ical/) - Schichten mit dem Kalender synchronisieren
-
 ## Benutzer-Workflow
 
 Der typische Ablauf im Engelsystem:

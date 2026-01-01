@@ -5,10 +5,6 @@ weight: 50
 
 Work logs allow you to record volunteer work hours outside of the normal shift system. This is useful for tasks that don't fit into scheduled shifts.
 
-## Required Privilege
-
-You need the `admin_user_worklog` privilege to edit work logs. This is included in the Shift Coordinator group.
-
 ## When to Use Work Logs
 
 Use work logs for:
@@ -64,8 +60,3 @@ Work log hours count toward:
 ## Auditing Work Logs
 
 Work log entries are visible in user profiles and contribute to overall statistics. If discrepancies are found, investigate before making changes.
-
-## Related Topics
-
-- [Managing Shifts](shifts/) - The standard shift system
-- [Role Management]({{% relref "/admin/role_management" %}}) - Shift Coordinator privileges

@@ -5,10 +5,6 @@ weight: 50
 
 Arbeitsprotokolle ermöglichen es dir, Arbeitsstunden von Freiwilligen außerhalb des normalen Schichtsystems zu erfassen. Das ist nützlich für Aufgaben, die nicht in geplante Schichten passen.
 
-## Erforderliches Privileg
-
-Du brauchst das `admin_user_worklog`-Privileg, um Arbeitsprotokolle zu bearbeiten. Das ist in der Shift Coordinator-Gruppe enthalten.
-
 ## Wann Arbeitsprotokolle verwenden
 
 Verwende Arbeitsprotokolle für:
@@ -64,8 +60,3 @@ Arbeitsprotokoll-Stunden zählen für:
 ## Arbeitsprotokolle auditieren
 
 Arbeitsprotokoll-Einträge sind in Benutzerprofilen sichtbar und tragen zur Gesamtstatistik bei. Wenn Unstimmigkeiten gefunden werden, untersuche sie vor Änderungen.
-
-## Verwandte Themen
-
-- [Schichten verwalten](shifts/) - Das Standard-Schichtsystem
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Shift Coordinator-Privilegien

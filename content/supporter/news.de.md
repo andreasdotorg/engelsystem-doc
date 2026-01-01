@@ -9,13 +9,9 @@ Als Supporter musst du dein Team informiert halten. Die News-Funktion wird typis
 
 ## Engeltyp-Beschreibung
 
-Dein Engeltyp hat eine Beschreibung, die alle Teammitglieder sehen, wenn sie den Typ aufrufen. Das ist der primäre Ort für Kommunikation:
+Dein Engeltyp hat eine Beschreibung, die alle Teammitglieder sehen, wenn sie den Typ aufrufen. Das ist der primäre Ort für Kommunikation.
 
-- Voraussetzungen für den Beitritt
-- Was während Schichten zu erwarten ist
-- Treffpunkte und Zeiten
-- Kontaktinformationen
-- Links zu externen Ressourcen
+Nimm die Voraussetzungen auf, die jemand erfüllen muss um beizutreten, was Teammitglieder während ihrer Schichten erwarten können, wo und wann das Team sich trifft, wie man dich kontaktiert, und Links zu externen Ressourcen wie Wikis oder Dokumentation.
 
 Arbeite mit den Admins deiner Veranstaltung zusammen, um diese Beschreibung aktuell zu halten. Änderungen hier sind für alle sichtbar, die Engeltypen durchstöbern, nicht nur für deine bestätigten Mitglieder.
 
@@ -37,13 +33,7 @@ Administrator*innen können dir helfen, dein Team über offizielle Kanäle zu er
 
 ## Engeltyp-Treffen
 
-Viele Teams halten früh in der Veranstaltung Einführungsmeetings. Das ist deine Chance zu erklären:
-
-- Was die Arbeit tatsächlich beinhaltet
-- Sicherheitsaspekte und Verfahren
-- Wo man Ausrüstung bekommt
-- Wer die Supporter sind und wie man sie erreicht
-- Häufige Probleme und wie man damit umgeht
+Viele Teams halten früh in der Veranstaltung Einführungsmeetings. Das ist deine Chance zu erklären, was die Arbeit tatsächlich beinhaltet, Sicherheitsaspekte und Verfahren zu behandeln, zu zeigen wo man Ausrüstung bekommt, dich und andere Supporter vorzustellen, und häufige Probleme und deren Lösungen durchzugehen.
 
 Nach dem Meeting wirst du wahrscheinlich eine Warteschlange von Engeln zum Bestätigen haben. Das ist normal - das Meeting qualifiziert sie für den Beitritt.
 

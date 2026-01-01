@@ -3,7 +3,7 @@ title: "Architektur"
 weight: 10
 ---
 
-Diese Seite bietet eine Übersicht über die technische Architektur des Engelsystems für Entwickler.
+Diese Seite bietet eine Übersicht über die technische Architektur des Engelsystems für Entwickler*innen.
 
 ## Tech Stack
 

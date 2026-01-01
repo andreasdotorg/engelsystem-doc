@@ -5,19 +5,6 @@ weight: 60
 
 Shift Coordinators can view and manage volunteer certifications and qualifications that affect shift eligibility.
 
-## Required Privileges
-
-Different certificates require different privileges:
-
-| Certificate | View | Edit |
-|-------------|------|------|
-| IFSG (food handling) | `user.info.view` | `user.ifsg.edit` |
-| Driver license | `user.info.view` | `user.drive.edit` |
-| First aid | `user.info.view` | `user.fa.edit`* |
-| Free-from/dietary | `user.info.view` | `user.ff.edit` |
-
-*First aid editing requires Bureaucrat privileges
-
 ## IFSG Certificate
 
 The German Infection Protection Act (Infektionsschutzgesetz) requires certification for food handling.
@@ -76,8 +63,3 @@ To check a volunteer's certifications:
 For events with many volunteers needing certification updates:
 - Use the user administration interface for batch operations
 - Consider having dedicated briefing sessions where certifications can be confirmed
-
-## Related Topics
-
-- [User Guide - Profile]({{% relref "/user/profile" %}}) - How volunteers manage their own info
-- [Role Management]({{% relref "/admin/role_management" %}}) - Permission details

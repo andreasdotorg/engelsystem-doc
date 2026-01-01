@@ -41,12 +41,6 @@ Wenn du dich einloggst, informiert dich das System, wenn unbestätigte Engel in 
 
 Deine Engeltyp-Seite zeigt alle Mitglieder, ihren Status (bestätigt, unbestätigt oder Supporter) und alle ausstehenden Anfragen. Von dort aus kannst du dein Team verwalten.
 
-## Dokumentation
-
-- [Engel verwalten](managing-angels/) - Wie du Teammitglieder bestätigst, hinzufügst und entfernst
-- [Schichten verwalten](managing-shifts/) - Wie du Engeln bei der Schichtanmeldung hilfst
-- [Kommunikation](news/) - Dein Team auf dem Laufenden halten
-
 {{% notice tip %}}
 Die besten Supporter gehen mit gutem Beispiel voran. Nimm selbst Schichten, hilf Neulingen bei ihren ersten Schichten und sei erreichbar für Fragen. Deine Erfahrung ist wertvoll – teile sie.
 {{% /notice %}}

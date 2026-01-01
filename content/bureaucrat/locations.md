@@ -5,10 +5,6 @@ weight: 30
 
 Locations define where shifts take place at your event. Bureaucrats manage the list of locations and their properties.
 
-## Required Privilege
-
-You need the `locations.edit` privilege to manage locations. This is included in the Bureaucrat group.
-
 ## What Locations Represent
 
 Locations are physical or virtual places where work happens:
@@ -84,8 +80,3 @@ Before deleting a location:
 {{% notice warning %}}
 Deleting a location with active shifts will affect those shifts. Move shifts to a different location first.
 {{% /notice %}}
-
-## Related Topics
-
-- [Managing Shifts]({{% relref "/shift-coordinator/shifts" %}}) - Creating shifts at locations
-- [Role Management]({{% relref "/admin/role_management" %}}) - Bureaucrat privileges

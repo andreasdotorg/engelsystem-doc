@@ -50,10 +50,6 @@ Wenn du dich zum ersten Mal mit Schichtkoordinator-Rechten einloggst, mach dich 
 
 Das Admin-Menü enthält die Schichtverwaltungs-Tools, die du am meisten nutzen wirst.
 
-## Dokumentation
-
-- [Schichten verwalten](shifts/) - Schichten erstellen, bearbeiten und organisieren
-
 {{% notice tip %}}
 Koordiniere mit Supportern, bevor du größere Planänderungen vornimmst. Sie verstehen die Verfügbarkeit ihrer Teams und können helfen sicherzustellen, dass Schichten besetzt werden.
 {{% /notice %}}

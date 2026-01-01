@@ -5,19 +5,6 @@ weight: 60
 
 Shift Coordinators können Freiwilligen-Zertifizierungen und Qualifikationen anzeigen und verwalten, die die Schichtberechtigung beeinflussen.
 
-## Erforderliche Privilegien
-
-Verschiedene Zertifikate erfordern verschiedene Privilegien:
-
-| Zertifikat | Anzeigen | Bearbeiten |
-|------------|----------|------------|
-| IFSG (Lebensmittel) | `user.info.view` | `user.ifsg.edit` |
-| Führerschein | `user.info.view` | `user.drive.edit` |
-| Erste Hilfe | `user.info.view` | `user.fa.edit`* |
-| Frei-von/Ernährung | `user.info.view` | `user.ff.edit` |
-
-*Erste-Hilfe-Bearbeitung erfordert Bureaucrat-Privilegien
-
 ## IFSG-Zertifikat
 
 Das Infektionsschutzgesetz erfordert eine Zertifizierung für den Umgang mit Lebensmitteln.
@@ -76,8 +63,3 @@ Um die Zertifizierungen eines Freiwilligen zu prüfen:
 Für Events mit vielen Freiwilligen, die Zertifizierungsaktualisierungen benötigen:
 - Nutze die Benutzerverwaltungs-Oberfläche für Batch-Operationen
 - Erwäge dedizierte Belehrungssitzungen, bei denen Zertifizierungen bestätigt werden können
-
-## Verwandte Themen
-
-- [Benutzerhandbuch - Profil]({{% relref "/user/profile" %}}) - Wie Freiwillige ihre eigenen Infos verwalten
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Berechtigungsdetails

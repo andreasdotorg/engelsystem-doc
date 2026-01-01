@@ -5,10 +5,6 @@ weight: 40
 
 Freiwillige können Fragen über das Q&A-System einreichen. Shift Coordinators überprüfen und beantworten diese Fragen.
 
-## Erforderliches Privileg
-
-Du brauchst das `question.edit`-Privileg, um Fragen zu sehen und zu beantworten. Das ist in der Shift Coordinator-Gruppe enthalten.
-
 ## Fragen aufrufen
 
 Navigiere zu **Fragen** im Admin-Menü, um alle eingereichten Fragen zu sehen.
@@ -57,8 +53,3 @@ Achte auf Muster in Fragen:
 {{% notice tip %}}
 Wenn du die gleiche Frage wiederholt siehst, ist es Zeit, eine News-Ankündigung zu posten oder einen FAQ-Eintrag hinzuzufügen, anstatt einzeln zu antworten.
 {{% /notice %}}
-
-## Verwandte Themen
-
-- [FAQ-Verwaltung](faq-management/) - FAQ-Einträge für häufige Fragen erstellen
-- [Rollenverwaltung]({{% relref "/admin/role_management" %}}) - Shift Coordinator-Privilegien

@@ -41,7 +41,3 @@ The system shows a notification indicator when you have unread messages. Check r
 {{% notice tip %}}
 Use messages for coordination that doesn't need to be public. For announcements that should reach everyone, ask a coordinator to post news instead.
 {{% /notice %}}
-
-## Related Topics
-
-- [User Guide]({{% relref "/user" %}}) - Overview of user features

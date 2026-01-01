@@ -5,10 +5,6 @@ weight: 70
 
 Tags help organize and filter shifts, locations, and other entities in the system.
 
-## Required Privilege
-
-You need the `tag.edit` privilege to manage tags. This is included in the Shift Coordinator group.
-
 ## What Tags Are For
 
 Tags provide flexible categorization beyond fixed structures. Common uses:
@@ -47,8 +43,3 @@ Tags help volunteers find relevant opportunities and help coordinators organize 
 - **Don't over-tag** - Too many tags becomes confusing
 - **Document meanings** - Make sure team members know what each tag means
 - **Review periodically** - Remove unused tags, consolidate duplicates
-
-## Related Topics
-
-- [Managing Shifts](shifts/) - Where tags are commonly used
-- [Role Management]({{% relref "/admin/role_management" %}}) - Shift Coordinator privileges

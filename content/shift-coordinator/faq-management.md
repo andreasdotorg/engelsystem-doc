@@ -5,10 +5,6 @@ weight: 30
 
 Shift Coordinators can create and edit FAQ entries to answer common questions before volunteers need to ask.
 
-## Required Privilege
-
-You need the `faq.edit` privilege to manage FAQ entries. This is included in the Shift Coordinator group.
-
 ## Accessing FAQ Management
 
 Navigate to **FAQ** and click the edit or management option to access FAQ administration.
@@ -58,8 +54,3 @@ Consider adding FAQ entries when:
 {{% notice tip %}}
 Review the Questions queue regularly. Repeated questions are good candidates for new FAQ entries.
 {{% /notice %}}
-
-## Related Topics
-
-- [Answering Questions](questions/) - Handling individual volunteer questions
-- [Role Management]({{% relref "/admin/role_management" %}}) - Shift Coordinator privileges

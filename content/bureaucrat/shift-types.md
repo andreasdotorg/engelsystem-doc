@@ -5,10 +5,6 @@ weight: 40
 
 Shift types define categories of shifts with common properties. They help standardize shift creation and provide consistent naming across your event.
 
-## Required Privilege
-
-You need the `shifttypes.edit` privilege to manage shift types. This is included in the Bureaucrat group. The `shifttypes.view` privilege (included in Shift Coordinator) allows viewing but not editing.
-
 ## What Shift Types Are For
 
 Shift types categorize shifts by their purpose:
@@ -83,8 +79,3 @@ Before deleting a shift type:
 {{% notice warning %}}
 Shifts may become orphaned if their shift type is deleted. Reassign shifts first.
 {{% /notice %}}
-
-## Related Topics
-
-- [Managing Shifts]({{% relref "/shift-coordinator/shifts" %}}) - Creating shifts with shift types
-- [Role Management]({{% relref "/admin/role_management" %}}) - Bureaucrat privileges

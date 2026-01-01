@@ -5,10 +5,6 @@ weight: 20
 
 Angel types define the categories of volunteer work at your event. Bureaucrats can create, edit, and configure angel types to match your event's needs.
 
-## Required Privilege
-
-You need the `admin_angel_types` privilege to manage angel types. This is included in the Bureaucrat group.
-
 ## What Angel Types Represent
 
 Each angel type is a category of work that volunteers can sign up for:
@@ -97,8 +93,3 @@ Before deleting an angel type:
 {{% notice warning %}}
 Deleting an angel type may affect shift coverage and volunteer eligibility. Plan carefully.
 {{% /notice %}}
-
-## Related Topics
-
-- [Supporter Guide]({{% relref "/supporter" %}}) - How supporters manage angel types
-- [Role Management]({{% relref "/admin/role_management" %}}) - Bureaucrat privileges

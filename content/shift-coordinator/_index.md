@@ -50,10 +50,6 @@ When you first log in with shift coordinator privileges, familiarize yourself wi
 
 The Admin menu contains the shift management tools you'll use most.
 
-## Documentation
-
-- [Managing Shifts](shifts/) - Creating, editing, and organizing shifts
-
 {{% notice tip %}}
 Coordinate with supporters before making major schedule changes. They understand their teams' availability and can help ensure shifts get filled.
 {{% /notice %}}

@@ -9,13 +9,9 @@ As a supporter, you'll need to keep your team informed. While the news feature i
 
 ## Angel Type Description
 
-Your angel type has a description that all team members see when they view the type. This is the primary place to communicate:
+Your angel type has a description that all team members see when they view the type. This is the primary place to communicate.
 
-- Requirements for joining
-- What to expect during shifts
-- Meeting points and times
-- Contact information
-- Links to external resources
+Include the requirements someone needs to meet before joining, what team members can expect during their shifts, where and when the team meets, how to contact you, and links to external resources like wikis or documentation.
 
 Work with your event's admins to keep this description current. Changes here are visible to everyone browsing angel types, not just your confirmed members.
 
@@ -37,13 +33,7 @@ Administrators can help you reach your team through official channels:
 
 ## Angel Type Meetings
 
-Many teams hold introduction meetings early in the event. These are your chance to explain:
-
-- What the work actually involves
-- Safety considerations and procedures
-- Where to get equipment
-- Who the supporters are and how to reach them
-- Common problems and how to handle them
+Many teams hold introduction meetings early in the event. This is your chance to explain what the work actually involves, cover safety considerations and procedures, show where to get equipment, introduce yourself and other supporters, and go over common problems and how to handle them.
 
 After the meeting, you'll likely have a queue of angels to confirm. This is normal - the meeting is what qualifies them to join.
 

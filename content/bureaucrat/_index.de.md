@@ -38,12 +38,6 @@ Wenn du dich einloggst, prüfe auf ausstehende Fragen von Engeln. Diese erschein
 
 Deine Hauptwerkzeuge sind der Benutzerverwaltungsbereich und die FAQ/Fragen-Bereiche. Mach dich zuerst damit vertraut - dort wirst du die meiste Zeit verbringen.
 
-## Dokumentation
-
-- [Benutzerverwaltung](user-management/) - Benutzerkonten finden und bearbeiten
-- [Veranstaltungsbetrieb](event-setup/) - Mit den Veranstaltungsdaten arbeiten
-- [Berichte und Logs](reports/) - Statistiken und Aktivität einsehen
-
 {{% notice tip %}}
 Gute Bürokraten machen die Arbeit aller anderen einfacher. Wenn du dieselbe Frage wiederholt siehst, füge sie zur FAQ hinzu. Wenn du einen verwirrenden Ablauf bemerkst, dokumentiere ihn. Deine administrative Arbeit hat Auswirkungen auf die gesamte Veranstaltung.
 {{% /notice %}}
