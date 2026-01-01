@@ -241,9 +241,6 @@ Database migrations live in `db/migrations/` and are numbered chronologically. T
 ```bash
 # Run all pending migrations
 ./bin/migrate
-
-# With Nix
-nix run .#migrate
 ```
 
 ### Migration Structure

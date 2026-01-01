@@ -38,6 +38,7 @@ Das System verwendet rollenbasierte Berechtigungen:
 
 - **[Benutzerhandbuch](user/)** - Für Freiwillige: Registrierung, Schichten und Profilverwaltung
 - **[Supporter-Handbuch](supporter/)** - Für Supporter: Engeltyp-Mitgliedschaft verwalten
+- **[Schichtkoordinator-Handbuch](shift-coordinator/)** - Für Schichtkoordinator*innen: Schichten erstellen und verwalten
 - **[Bürokraten-Handbuch](bureaucrat/)** - Für Bürokraten: Benutzer- und Arbeitsprotokollverwaltung
 - **[Administration](admin/)** - Servereinrichtung und Systemkonfiguration
 - **[Entwicklung](developer/)** - Technische Architektur und Beitragsrichtlinien

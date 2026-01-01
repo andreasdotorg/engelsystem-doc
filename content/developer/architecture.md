@@ -37,7 +37,6 @@ This page provides an overview of Engelsystem's technical architecture for devel
 |-----------|------------|
 | Database | MySQL/MariaDB |
 | Package Manager | Composer (PHP), Yarn (JS) |
-| Build System | Nix Flake |
 | CI/CD | GitLab CI |
 | Containerization | Docker/Kubernetes |
 
